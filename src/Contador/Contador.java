@@ -1,3 +1,4 @@
+package Contador;
 
 import java.util.Scanner;
 
@@ -19,7 +20,7 @@ public class Contador {
     }
 
 
-    static void contar(int number1, int number2 ) throws  ParametrosInvalidosException {
+    static void contar(int number1, int number2 ) throws ParametrosInvalidosException {
 
         if (number1 >= number2 ){
             throw new ParametrosInvalidosException(" O segundo numero tem que ser maior que o primeiro");
